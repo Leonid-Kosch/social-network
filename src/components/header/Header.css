@@ -1,0 +1,13 @@
+.logo{
+    display: inline-block;
+    width: 100px;
+    animation: logo-spin infinite 4s linear;
+}
+.logo img{
+    width: 100%;
+}
+@keyframes logo-spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
