@@ -10,7 +10,10 @@ function Profile () {
                     Леонид
                 </h3>
             </div>
-            <div className='posts'></div>
+            <div className='posts'>
+                <input placeholder='Введите тексты' type='text'/>
+                <button>Опубликовать</button>
+            </div>
         </div>
     );
 }

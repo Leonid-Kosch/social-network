@@ -5,7 +5,7 @@ import Profile from './components/Profile/Profile.js';
 
 function App() {
   return (
-    <div className="Wrapper">
+    <div className="wrapper">
         <Header />
         <Nav />
         <Profile />

@@ -1,0 +1,20 @@
+.profile{
+    padding: 8px;
+    box-shadow: 0 0 8px white;
+    border-radius: 8px;
+}
+.about-me{
+    /* height: 30%; */
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.about-me img{
+    width: 10vw;
+    border-radius: 8px;
+}
+.about-me h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
