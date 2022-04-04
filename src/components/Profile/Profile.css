@@ -2,6 +2,9 @@
     padding: 8px;
     box-shadow: 0 0 8px white;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .about-me{
     /* height: 30%; */
@@ -17,4 +20,57 @@
     color: white;
     font-size: 24px;
     font-weight: 700;
+}
+.posts__head h2{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.posts__head input{
+    border: solid 1px white;
+    border-radius: 4px;
+    padding: 7px;
+    width: 210px;
+    transition: all 0.3s;
+}
+.posts__head input:focus{
+    box-shadow: 0 0 10px white;
+}
+.posts__head button{
+    padding: 7px;
+    border: solid 1px #6CD3FA;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: #6CD3FA;
+    transition: all 0.3s;
+}
+.posts__head button:hover{
+    box-shadow:0 0 10px white;
+    background: transparent;
+    color: #6CD3FA;
+    
+}
+.posts__input{
+    display: flex;
+    gap: 8px;
+}
+.posts{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.posts__list{
+    flex-grow: 1;
+    background-color: gray;
+    overflow-y: auto;
+    height: 100px;
+}
+.posts__list::-webkit-scrollbar{
+    width: 5px;
+}
+.posts__list::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: #6CD3FA;
+    border-radius: 5px;
 }

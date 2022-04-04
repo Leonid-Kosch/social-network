@@ -22,8 +22,7 @@ body {
   ;
   grid-template-columns: 3fr 9fr;
   gap: 16px;
-  /* grid-template-rows: minmax(2fr 2fr), minmax(10fr 10fr); */
-  grid-template-rows: 2fr 10fr;
+  grid-template-rows: 10% 89%;
 }
 .header{
   grid-area: header;
