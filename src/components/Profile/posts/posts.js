@@ -1,3 +1,5 @@
+import Post from "./post/post.js";
+
 function Posts () {
     return(
         <div className='posts'>
@@ -11,7 +13,10 @@ function Posts () {
                 </div>
             </div>
             <div className='posts__list'>
-                
+                <Post name='LK' />
+                <Post name='Chto' />
+                <Post name='Aufdisufis' />
+                <Post name='Leo' text='lol'/>
             </div>
         </div>
     );

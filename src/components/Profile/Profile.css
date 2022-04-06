@@ -62,7 +62,6 @@
 }
 .posts__list{
     flex-grow: 1;
-    background-color: gray;
     overflow-y: auto;
     height: 100px;
 }
@@ -73,4 +72,24 @@
     width: 5px;
     background-color: #6CD3FA;
     border-radius: 5px;
+}
+.post{
+    border-radius: 6px;
+    background-color: #6CD3FA;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 4px;
+}
+.post img{
+    width: 100px;
+    border-radius: 4px;
+}
+.post__head{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom:8px;
+}
+.post p{
+    font-style: italic;
 }
