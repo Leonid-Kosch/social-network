@@ -1,4 +1,5 @@
 import './App.css';
+import Dialogs from './components/Dialogs/Dialogs.js';
 import Header from './components/header/Header.js'; 
 import Nav from './components/Nav/Nav.js';
 import Profile from './components/Profile/Profile.js';
@@ -8,7 +9,10 @@ function App() {
     <div className="wrapper">
         <Header />
         <Nav />
-        <Profile />
+        <div className='main-content'>
+          {/* <Profile /> */}
+          <Dialogs />
+        </div>
     </div>
   );
 }

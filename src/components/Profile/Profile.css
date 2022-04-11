@@ -1,10 +1,9 @@
 .profile{
-    padding: 8px;
-    box-shadow: 0 0 8px white;
-    border-radius: 8px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    height: 100%;
+    width: 100%;
 }
 .about-me{
     /* height: 30%; */
