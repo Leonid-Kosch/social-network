@@ -28,11 +28,24 @@
 }
 .message .content{
     background-color: #6CD3FA;
-    border-radius: 8px;
+    border-radius: 8px 8px 8px 0;
     box-shadow:  4px 4px 4px #56b1d2;
     padding: 16px 8px; 
     flex-grow: 1;
     min-width: 200px;
+    position: relative;
+}
+.message .content::before{
+    content:'';
+    width: 15px;
+    height: 10px;
+    background-image: url(../../image/Message.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    left: -14px;
 }
 .message img{
     width: 64px;
