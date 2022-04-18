@@ -1,6 +1,11 @@
 .dialogs{
     display: flex;
     width: 100%;
+    background-image: url(../../image/message-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    gap: 8px;
 }
 .messages{
     display: flex;
@@ -10,6 +15,8 @@
     padding-right: 8px;
     width: 100%;
     flex-grow: 1;
+    position: relative;
+    height: 100%;
 }
 .messages::-webkit-scrollbar{
     width: 5px;
@@ -27,7 +34,7 @@
     flex-grow: 1;
 }
 .message .content{
-    background-color: #6CD3FA;
+    background-color: #6cd4fa92;
     border-radius: 8px 8px 8px 0;
     box-shadow:  4px 4px 4px #56b1d2;
     padding: 16px 8px; 
@@ -46,6 +53,7 @@
     position: absolute;
     bottom:0;
     left: -14px;
+    opacity: 0.5;
 }
 .message img{
     width: 64px;
@@ -61,4 +69,39 @@
     color: black;
     font-size: 14px;
     line-height: 150%;
+}
+.dialog__list{
+    background-color: #6cd4fa89 ;
+    border-right: solid 1px darkblue;
+    border-radius: 4px;
+    width: 25%;
+    overflow-y: scroll;
+}
+.dialog__list a{
+    display: block;
+    padding: 8px;
+    color:white;
+    transition: all 0.3s;
+    border-radius: 4px;
+}
+.dialog__list a:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+    color: black;
+}
+.dialog__list::-webkit-scrollbar{
+    width: 4px;
+    background-color: white;
+    border-radius:0 2px 2px 0 ;
+}
+.dialog__list::-webkit-scrollbar-thumb{
+    background-color: #6CD3FA;
+}
+.messages__managment{
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
