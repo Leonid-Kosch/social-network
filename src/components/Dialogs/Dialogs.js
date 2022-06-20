@@ -8,7 +8,7 @@ function Dialogs () {
             <div className='dialog__list'>
                 <Dialogsitem Name='Elon Mysk' id='1'/>
                 <Dialogsitem Name='Leonid'/>
-                <Dialogsitem Name='Nigerija'/>
+                <Dialogsitem Name='Donald Trump'/>
             </div>
             <Messages />
         </div>
