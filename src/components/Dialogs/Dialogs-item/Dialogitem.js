@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Dialogsitem (props) {
     return(
         <div className='dialog__user'>
-            <NavLink to={'/dialogs/${props.id}'}>{props.Name}</NavLink>
+            <NavLink to={'/Dialogs/${props.id}'}>{props.name}</NavLink>
         </div>
     );
 }

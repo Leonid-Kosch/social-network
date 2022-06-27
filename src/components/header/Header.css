@@ -1,6 +1,6 @@
 .header{
     padding: 8px;
-    box-shadow: 0 0 8px white;
+    box-shadow: 0 0 8px var(--colorText);
     border-radius: 8px;
 }
 .logo{

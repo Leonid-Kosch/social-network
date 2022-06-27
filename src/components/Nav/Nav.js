@@ -6,7 +6,7 @@ function Nav () {
         <div className="nav">
             <NavLink to='/profile'> Профиль</NavLink>
             <NavLink to='/dialogs'> Сообщения</NavLink>
-            <NavLink to='/user'> Пользовтаели</NavLink>
+            <NavLink to='/users'> Пользовтаели</NavLink>
         </div>
     );
 }

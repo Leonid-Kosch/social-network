@@ -7,6 +7,7 @@ function Header () {
             <a className='logo'>
                 <img src={Logo}/>
             </a>
+            <button className='lightTeme'>Сменить тему</button>
         </div>
     );
 }

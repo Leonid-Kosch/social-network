@@ -1,10 +1,10 @@
 .nav{
-    box-shadow:0 0 8px white;
+    box-shadow:0 0 8px var(--colorText);
     border-radius: 8px;
     padding: 8px;
 }
 .nav a{
-    color:white;
+    color: var(--colorText);
     display: block;
     font-size: 16px;
     padding: 8px;

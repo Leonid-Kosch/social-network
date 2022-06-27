@@ -16,7 +16,7 @@
     border-radius: 8px;
 }
 .about-me h3{
-    color: white;
+    color: var(--colorText);
     font-size: 24px;
     font-weight: 700;
 }
@@ -26,14 +26,14 @@
     margin-bottom: 16px;
 }
 .posts__head input{
-    border: solid 1px white;
+    border: solid 1px var(--colorText);
     border-radius: 4px;
     padding: 7px;
     width: 210px;
     transition: all 0.3s;
 }
 .posts__head input:focus{
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px ;
 }
 .posts__head button{
     padding: 7px;
@@ -44,7 +44,7 @@
     transition: all 0.3s;
 }
 .posts__head button:hover{
-    box-shadow:0 0 10px white;
+    box-shadow:0 0 10px;
     background: transparent;
     color: #6CD3FA;
     
