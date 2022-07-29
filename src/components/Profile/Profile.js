@@ -1,3 +1,4 @@
+import React from 'react';
 import './Profile.css';
 import Photo from '../../image/me.jpg';
 import Posts from './posts/posts.js';

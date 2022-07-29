@@ -1,3 +1,4 @@
+import React from 'react';
 import Dialogsitem from './Dialogs-item/Dialogitem';
 import './Dialogs.css';
 import Messages from './Messages/Messages';

@@ -1,3 +1,4 @@
+import React from 'react';
 import Message from "./Message/Message";
 import Me from '../../../image/me.jpg'
 
